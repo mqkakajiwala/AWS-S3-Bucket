@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
 //        let credentialProvider = AWSCognitoCredentialsProvider(regionType: .USEast2, identityPoolId: "us-east-2:236585f3-2cff-4fc6-afbd-5159a950bc0b")
-        let credentialProvider = AWSStaticCredentialsProvider(accessKey: "AKIAIXBXZXUVRYSS5VMQ", secretKey: "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")
+        let credentialProvider = AWSStaticCredentialsProvider(accessKey: "ACCESS KEY", secretKey: "SECRET KEY")
         let configuration = AWSServiceConfiguration(region: .USEast2, credentialsProvider: credentialProvider)
         AWSServiceManager.default().defaultServiceConfiguration = configuration
         
